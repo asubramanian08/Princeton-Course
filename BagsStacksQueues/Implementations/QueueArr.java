@@ -1,4 +1,4 @@
-package BagsStacksQueues;
+package BagsStacksQueues.Implementations;
 
 import java.util.Iterator;
 

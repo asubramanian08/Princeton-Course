@@ -1,4 +1,4 @@
-package BagsStacksQueues;
+package BagsStacksQueues.Implementations;
 
 import java.util.Iterator;
 
@@ -15,14 +15,14 @@ public class QueueLL<Item> {
     }
 
     public void enqueue(Item item) {
-        Node oldlast = last;
+        Node old_last = last;
         last = new Node();
         last.item = item;
         last.next = null;
         if (isEmpty())
             first = last;
         else
-            oldlast.next = last;
+            old_last.next = last;
     }
 
     public Item dequeue() {

@@ -1,17 +1,18 @@
-package BagsStacksQueues;
+package BagsStacksQueues.GeneralCode;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import BagsStacksQueues.Implementations.*;
 
-//we want to make this genaric -> not just string
+//we want to make this generic -> not just string
 
-//Itterable interface : if client wants to go through each element.
-//Key: Client shoudn't notice difference between a 
-//linklist implementation or a array implementation
+//Iterable interface : if client wants to go through each element.
+//Key: Client shouldn't notice difference between a 
+//link-list implementation or a array implementation
 
 //BAG: Put things in bag but don't take out
 //Same imp. as stack with no pop, or queue with no dequeue
-//Have Itterator *** nessisary
+//Have Iterator *** necessary
 
 class Client {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package BagsStacksQueues;
+package BagsStacksQueues.Implementations;
 
 import java.util.Iterator;
 
-//Always a debate: Use array or linklist
+//Always a debate: Use array or link-list
 public class StackArr<Item> {
     private Item[] arr;
     private int N = 0;

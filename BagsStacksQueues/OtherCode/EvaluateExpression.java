@@ -1,9 +1,10 @@
-package BagsStacksQueues;
+package BagsStacksQueues.OtherCode;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
+import BagsStacksQueues.Implementations.*;
 
-//made by dikstra
+//made by dijkstra
 public class EvaluateExpression {
     public static void main(String[] args) {
         StackLL<String> ops = new StackLL<String>();

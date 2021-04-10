@@ -1,4 +1,4 @@
-package UnionFind; //not supposed to be here in submittion
+package UnionFind.Percolation_PA;
 
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;

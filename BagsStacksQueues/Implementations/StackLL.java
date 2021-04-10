@@ -1,4 +1,4 @@
-package BagsStacksQueues;
+package BagsStacksQueues.Implementations;
 
 import java.util.Iterator;
 
@@ -16,10 +16,10 @@ public class StackLL<Item> {
     }
 
     public void push(Item item) {
-        Node oldfirst = first;
+        Node old_first = first;
         first = new Node();
         first.item = item;
-        first.next = oldfirst;
+        first.next = old_first;
     }
 
     public Item pop() {
